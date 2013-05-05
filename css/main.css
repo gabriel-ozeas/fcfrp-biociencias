@@ -17,6 +17,7 @@ body {
   *display:inline; /* ie7 fix */
   *zoom:1; /* hasLayout ie7 trigger */
   vertical-align: top;
+  font-size:12px;
 }
 
 .navbar-inner {
@@ -52,14 +53,15 @@ body {
 
 #sobre #descricao p {
 	font-family: Arial, Verdana, Sans-serif;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: bold;
-	line-height: 150%;
+	line-height: 180%;
 	color: rgba(180, 180, 180, 0.8);
 	text-shadow: 0px 1px 0px rgba(255,255,255,.7), 0 0 0px rgba(0,0,0,.5);
 }
 
 #sobre #divisao-curso h2 {
+	margin-top:50px;
 	color: rgba(118, 118, 118, 0.8);
 	text-shadow: 0px 1px 0px rgba(255,255,255,.7), 0 0 0px rgba(0,0,0,.5);
 }
@@ -108,12 +110,12 @@ body {
 	margin-left: 30px;
 }
 
-#inscricoes, #patrocinio {
+#inscricoes, #patrocinio, #organizacao {
 	clear:both;
 	padding-top:70px;
 }
 
-#inscricoes #descricao, #patrocinio #descricao {
+#inscricoes #descricao, #patrocinio #descricao, #organizacao #descricao {
 	background: #ffffff;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -123,7 +125,7 @@ body {
 	margin-top: 40px;
 }
 
-#inscricoes #descricao h3, #patrocinio #descricao h3 {
+#inscricoes #descricao h3, #patrocinio #descricao h3, #organizacao #descricao h3 {
 	background: url("../img/box-label.jpg") left center no-repeat;
 	position:relative;
 	width:264px;
@@ -131,6 +133,10 @@ body {
 	top:-45px;
 	left:450px;
 	color:#ffffff;
+}
+
+#organizacao #descricao h3 {
+	padding-left: 55px;
 }
 
 #inscricoes #descricao p, #inscricoes #descricao ul{
@@ -141,6 +147,19 @@ body {
 	text-shadow: 0px 1px 0px rgba(255,255,255,.7), 0 0 0px rgba(0,0,0,.5);
 }
 
+#inscricoes #descricao #dados {
+	float:left;
+	margin-left:20%;
+}
+
+#inscricoes #descricao img {
+	float:right;
+	margin-right:20%;
+}
+
+#inscricoes #descricao fieldset {
+	margin-top:40px;
+}
 #inscricoes #descricao fieldset legend {
 	font-weight: bold;
 }
@@ -148,6 +167,14 @@ body {
 #inscricoes #descricao ul li {
 	font-size:14px;
 	font-weight: bold;
+}
+
+#inscricoes #descricao .realizacao-inscricoes {
+	font-size: 30px;
+	font-weight: bold;
+	color: rgba(118, 118, 118, 0.8);
+	text-shadow: 0px 1px 0px rgba(255,255,255,.7), 0 0 0px rgba(0,0,0,.5);
+	text-align: center;
 }
 
 #inscricoes #descricao .data-inscricao {
@@ -252,7 +279,6 @@ body {
 	display:block;
 }
 #patrocinio .patrocinios img {
-	text-align:center;
 	margin: 25px 0;
 }
 
@@ -276,6 +302,16 @@ body {
 
 }
 
+
+#coordenadores-docentes #docentes{
+	float:left;
+	width:300px;
+}
+
+#coordenadores-docentes #coordenadores div {
+	float:left;
+	width:250px;
+}
 
 
 

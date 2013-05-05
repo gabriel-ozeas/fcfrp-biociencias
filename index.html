@@ -42,7 +42,8 @@
                             <li><a href="#" data-section="#inscricoes" class="scroller"><i class="icon-pencil icon-white"></i> Inscrições</a></li>
                             <li><a href="#" data-section="#localizacao-hospedagem" class="scroller"><i class="icon-globe icon-white"></i> Localização e Hospedagem</a></li>
                             <li><a href="#" data-section="#patrocinio" class="scroller"><i class="icon-thumbs-up icon-white"></i> Patrocínios</a></li>
-                            <li><a href="#" data-section="#selecionados" class="scroller"><i class="icon-thumbs-up icon-white"></i> Alunos Selecionados</a></li>
+                            <li><a href="#" data-section="#selecionados" class="scroller"><i class="icon-eye-open icon-white"></i> Alunos Selecionados</a></li>
+                            <li><a href="#" data-section="#organizacao" class="scroller"><i class="icon-user icon-white"></i> Organização</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
@@ -114,21 +115,28 @@
                                 O período de inscrição será do dia 27/05/2013 a 07/06/2013.
                             </div>
                            
-                            <h2 style="text-align:center;">
+                            <h2 class="realizacao-inscricoes">
                                 Para realizar a inscrição o aluno deve enviar os documentos relacionados abaixo 
-                                para o e-mail bafdifusao@fcfrp.usp.br.
+                                para o e-mail <span style="color:#526166;">bafdifusao@fcfrp.usp.br</span>.
                             </h2>
-                            <fieldset>
-                                <legend>Dados:</legend>
-                                <ul>
-                                    <li>Ficha de inscrição preenchida e assinada</li>
-                                    <li>Fotocópia do C.P.F.</li>
-                                    <li>Fotocópia do R.G.</li>
-                                    <li>Histórico escolar de graduação</li>
-                                    <li>Comprovante de matrícula na graduação</li>
-                                    <li>Currículo Vitae / Currículo Lattes</li>
-                                </ul>
-                            </fieldset>
+
+                            <div id="dados-ficha">
+                                <div id="dados">
+                                    <fieldset>
+                                        <legend>Dados:</legend>
+                                        <ul>
+                                            <li>Ficha de inscrição preenchida e assinada</li>
+                                            <li>Fotocópia do C.P.F.</li>
+                                            <li>Fotocópia do R.G.</li>
+                                            <li>Histórico escolar de graduação</li>
+                                            <li>Comprovante de matrícula na graduação</li>
+                                            <li>Currículo Vitae / Currículo Lattes</li>
+                                        </ul>
+                                    </fieldset>
+                                </div>
+                                <a href="CIBAF2013.pdf"><img src="img/download.jpg"></a>
+                                <div style="clear:both"></div>
+                            </div>
                             
                             <div class="alert alert-warn">
                                 <strong>Atenção</strong> <br />A Universidade de São Paulo não se responsabiliza por nenhum acidente que possa vir a 
@@ -533,6 +541,13 @@
                                         Luiz Miguel Pereira (Profª Drª Ana Patrícia Yatsuda Natsui)
                                     </td>
                                 </tr>
+
+                                <tr>
+                                    <td>11:20 às 12:00</td>
+                                    <td>
+                                        <strong>Perkin Elmer, Alexandre B. de Freitas</strong><br />
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
 
@@ -599,7 +614,8 @@
                                     Faculdade de Ciências Farmacêuticas de Ribeirão Preto – USP <br />
                                     Endereço: Av. do Café s/nº. <br />
                                     Bairro: Monte Alegre<br />
-                                    Cidade: Ribeirão Preto – SP <br /><br /> 
+                                    Cidade: Ribeirão Preto – SP <br />
+                                    Telefone: 55 16 3602.419 <br /><br />
 
                                     <span class="label label-info">Aulas Teóricas</span>
                                     As aulas teóricas serão realizadas no Auditório do Bloco R da FCFRP/USP. <br /><br />
@@ -649,25 +665,75 @@
                     <div id="descricao">
                         <h3>Patrocínios</h3>
                         <div id="patrocinio-inside row">
-                            <div class="patrocinios patrocinio-ouro span4">
-                                <span class="label label-warning"><h4>Patrocínio Ouro</h4></span>
-                                <img src="img/patrocinio/perkinelmer.jpg" />
-                            </div>
-                            <div class="patrocinios patrocinio-prata span4">
-                                <span class="label"><h4>Patrocínio Prata</h4></span>
-                                <img src="img/patrocinio/newroute.jpg" />
-                                <img src="img/patrocinio/promega.jpg" />
+                            <div class="patrocinios span8">
+                                <h4>Patrocínio</h4>
+                                <div class="patrocinios span4">
+                                    <img src="img/patrocinio/perkinelmer.jpg" />
+                                </div>
+                                <div class="patrocinios span3">
+                                    <img src="img/patrocinio/newroute.jpg" />
+                                    <img src="img/patrocinio/prceu.jpg" />
+                                </div>                                
                             </div>
                             <div class="patrocinios apoio span2">
-                                <span class="label label-info"><h4>Apoio</h4></span>
+                                <h4>Apoio</h4>
                                 <img src="img/patrocinio/biosystems.jpg" />
                                 <img src="img/patrocinio/logo_crf.jpg" />
                                 <img src="img/patrocinio/lt.jpg" />
-                                <img src="img/patrocinio/prceu.jpg" />
                                 <img src="img/patrocinio/tryit.jpg" />
                             </div>
                         </div>
                         <div style="clear:both"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="organizacao">
+                <div class="sombra">
+                    <div id="descricao">
+                        <h3>Organização</h3>
+                        <div id="coordenadores-docentes">
+                            <div id="docentes">
+                                <h4>Coordenadores Docentes</h4>
+
+                                Elaine Cristina Pereira de Martinis <br />
+                                Márcia Eliana da Silva Ferreira Balieiro
+                            </div>
+                            <div id="coordenadores">
+                                <h4>Comissão Organizadora</h4>
+
+                                <div>
+                                    Ana Flavia Tonelli Fernandes <br />
+                                    Eliza Vieira Davi <br />
+                                    Fernanda de Almeida<br />
+                                    Fernanda Barbosa dos Reis<br />
+                                    Fillipe Luiz Rosa do Carmo<br />
+                                    Gabriela de Campos Seuanes<br />
+                                    Heliara Maria Spina Canela<br />
+                                    Henrique Dantas de Menezes<br />
+                                </div>
+
+                                <div>
+                                    Isabel Cristina Costa Vigato Ferreira<br />
+                                    João Rodrigues Lima Júnior<br />
+                                    Karina Stringhetta<br />
+                                    Laís de Lourdes de Lima Bálico<br />
+                                    Leonardo Neves de Andrade<br />
+                                    Lucas Favaretto Tazinafo<br />
+                                    Luciana Baroni<br />
+                                </div>
+
+                                <div>
+                                    Maira da Costa Cacemiro<br />
+                                    Maryna Aguilar Tannous<br />
+                                    Marcos Alexandre Bezerra<br />
+                                    Renata Nishida Goto<br />
+                                    Sandra Mara Burin<br />
+                                </div>
+                            </div>
+                            <div style="clear:both;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
