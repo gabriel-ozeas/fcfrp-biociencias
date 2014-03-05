@@ -28,12 +28,17 @@ body {
     opacity: 0.76;
 }
 
+.navbar {margin-bottom:0px;}
+.container {
+	margin-top:0;
+}
+
 #biociencias-logo {
 	background: url('../img/biociencias-logo.jpg') center center no-repeat;
 	width: 620px;
 	height: 520px;
 	margin: 0 auto;
-	margin-bottom: 120px;
+	margin-bottom: 10px;
 }
 
 .sombra {
@@ -43,7 +48,7 @@ body {
 }
 
 #sobre {
-	padding-top: 70px;
+	padding-top: 30px;
 }
 #sobre #descricao {
 	background: url("../img/descricao-fundo.jpg") left center no-repeat;
@@ -303,15 +308,28 @@ body {
 }
 
 
-#coordenadores-docentes #docentes{
+#coordenadores-docentes #docentes {
 	float:left;
 	width:300px;
 }
 
-#coordenadores-docentes #coordenadores div {
+#coordenadores-docentes #coordenadores {
 	float:left;
 	width:250px;
 }
+
+#coordenadores-docentes #monitores {
+	float:left;
+	margin-left:40px;
+	width:500px;
+}
+
+#coordenadores-docentes #monitores div {
+	float:left;
+	margin-right:10px;
+}
+
+
 
 
 
